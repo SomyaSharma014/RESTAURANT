@@ -1,0 +1,600 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.contaner-navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 10px;
+}
+
+.contaner-navbar .navbar ul li {
+    display: inline-block;
+}
+
+.contaner-navbar .navbar ul li a {
+    padding: 10px;
+    text-decoration: none;
+}
+
+.button a {
+    text-decoration: none;
+}
+
+.food-row {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.food-row .image-col img {
+    height: 400px;
+    width: 400px;
+    border-radius: 50%;
+}
+
+.about-container {
+    display: flex;
+    align-items: flex-start;
+}
+
+.about-img {
+    flex: 0 0 200px;
+    /* Fixed width for the image container */
+    height: 20vh;
+    /* 20% of the viewport height */
+}
+
+.about-img img {
+    width: 500px;
+    height: 550px;
+}
+
+.about-content {
+    flex: 1;
+    /* Takes up remaining space */
+    padding: 0 20px;
+    /* Add some spacing */
+}
+
+
+.food-row .content-food {
+    width: 600px;
+    line-height: 50px;
+}
+
+.food-row .content-food h1 {
+    font-size: 3rem;
+    font-family: 'Pacifico', cursive;
+}
+
+
+.contaner-food {
+    padding: 20px;
+    background-color: rgba(48, 47, 47, 0.138);
+}
+
+.food-row .content-food p a:first-child {
+    padding: 10px 40px;
+    background-color: rgba(238, 11, 11, 0.925);
+    text-decoration: none;
+    color: rgb(241, 231, 231);
+    font-size: 20px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    border-radius: 25%;
+
+}
+
+.about-container {
+    padding: 20px;
+    margin-top: 50px;
+}
+
+.about-container .about-img img {
+    margin-left: 20px;
+    border-radius: 10px;
+}
+
+.about-content {
+    font-size: 15px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    line-height: 25px;
+    color: rgb(4, 2, 2);
+
+}
+
+.about-content h1 {
+    color: rgba(196, 19, 19, 0.734);
+
+    font-family: "Barriecito";
+    font-size: 2.5rem;
+
+}
+
+.photo-and-video {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.photo {
+    flex: 1;
+    margin-right: 20px;
+}
+
+.photo img {
+    border-radius: 10px;
+}
+
+.video {
+    flex: 1;
+    margin-left: 20px;
+}
+
+
+.res-con .res-row {
+    display: flex;
+    padding: 30px;
+    align-items: center;
+    padding: 30px;
+    background-color: rgb(236, 221, 221);
+    gap: 50px;
+}
+
+.res-con .res-row .res-col {
+    height: 300px;
+    width: 300px;
+    background-color: aliceblue;
+    padding: 20px;
+    border: 2px solid black;
+    text-align: center;
+
+
+}
+
+.res-con .res-row .res-col h1 {
+    font-size: 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #fff;
+    font-style: italic;
+}
+
+.res-con .res-row .res-col:nth-child(1) {
+    background-color: rgb(187, 20, 20);
+    width: 400px;
+    height: 400px;
+    padding: 10px;
+    text-align: left;
+    color: #fff;
+
+}
+
+.res-con .res-row .res-col h3 {
+    color: red;
+    font-size: 25px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style: italic;
+}
+
+.res-con .res-row .res-col p {
+
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.pic-con {
+    background-image: url(bg.jpg);
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgba(0, 0, 0, 0.447);
+    background-blend-mode: multiply;
+    color: aliceblue;
+    background-position: center;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 4rem;
+}
+
+.pic-con p {
+    font-size: 1.7rem;
+}
+
+.pic-con .col {
+    text-align: center;
+}
+
+.Starter-con {
+
+    padding: 20px;
+    text-align: center;
+
+}
+
+.Starter-con ul li {
+    display: inline-block;
+    padding: 20px;
+    color: black;
+}
+
+.Starter-con h1 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: italic ;
+    color: rgb(199, 71, 71);
+
+}
+
+.menu-con .menu-row {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+    line-height: 28px;
+    
+}
+.menu-con .menu-row h1{
+    color: black;
+    font-size: 20px;
+}
+.menu-con .menu-row p{
+    color: #222;
+    font-size: 15px;
+}
+.menu-con .menu-row span{
+    color: red;
+    font-size: 16px;
+    font-style: bold;
+}
+
+.menu-row .menu-col {
+    width: 20rem;
+}
+
+.menu-row .menu-col img {
+    height: 300px;
+    width: 300px;
+    border-radius: 50%
+}
+
+
+.swiper-container {
+    width: 100%;
+    height: 100%;
+}
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.testimonial-con {
+    text-align: center;
+    padding: 20px;
+    background-color: gray;
+}
+
+.slider-con {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.slider-con .slider-col {
+    max-width: 950px;
+    text-align: left;
+}
+
+.slider-con .slider-col img {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+}
+
+
+
+
+.card-con {
+    padding: 30px;
+}
+
+.fa-cake-candles {
+    font-size: 10rem;
+    margin-top: 10rem;
+}
+
+
+
+.card-con-row .card-col {
+    text-align: center;
+    height: 30rem;
+    width: 30rem;
+    background-color: rgba(0, 0, 0, 0.434);
+    border-radius: 10px;
+}
+
+.card-con-row .card-col .card-colmn {
+    position: absolute;
+    width: 30rem;
+}
+
+.card-con-row .card-col .back {
+    visibility: hidden;
+}
+
+.card-col:hover {
+    transform: perspective(1000px)rotateY(180deg);
+    transition: 3s;
+}
+
+.chef-con {
+    background-color: rgb(227, 223, 223);
+}
+
+.chef-con h3 {
+
+    color: black;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 25px;
+    font-style: bold;
+    text-align: center;
+
+}
+
+.chef-con H1 {
+    color: black;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 25px;
+    font-style: italic;
+    text-align: center;
+}
+
+.chef-row {
+    display: flex;
+    padding: 20px;
+    justify-content: center;
+    gap: 15px;
+
+}
+
+.col-box {
+    width: 400px;
+    gap: 10px;
+    box-shadow: 2px 4px 12px rgb(68, 68, 130);
+    text-align: center;
+    padding: 20px;
+    background-color: rgb(197, 219, 221);
+}
+
+.col-box img {
+    width: 100%;
+    height: 300px;
+    padding: 20px 0px;
+}
+
+.table {
+    text-align: center;
+    padding: 15px;
+    margin-top: 40px;
+    background-color: rgb(203, 175, 229);
+    color: rgb(68, 5, 128);
+}
+
+.table-con {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 25px;
+    gap: 15px;
+
+}
+
+.form-img img {
+    width: 400px;
+}
+
+.table-con .form input {
+    width: 200px;
+    display: inline-block;
+    margin-left: 10px;
+    padding: 15px;
+    margin-top: 30px;
+}
+
+.table-con .button a {
+    padding: 10px 40px;
+    background-color: purple;
+    text-decoration: none;
+    color: aliceblue;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    border-radius: 12px;
+
+}
+
+.gallery {
+    box-sizing: border-box;
+    margin-top: 30px;
+
+}
+
+.container {
+    position: relative;
+}
+
+.container .mySlides {
+    display: none;
+}
+
+.container .mySlides img {
+    vertical-align: middle;
+}
+
+.cursor {
+    cursor: pointer;
+}
+
+.prev,
+.next {
+    cursor: pointer;
+    position: absolute;
+    top: 40%;
+    width: auto;
+    padding: 16px;
+    margin-top: -50px;
+    color: rgb(14, 13, 13);
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    -webkit-user-select: none;
+}
+
+
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+
+.prev:hover,
+.next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+
+.numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+}
+
+
+.caption-container {
+    text-align: center;
+    background-color: #222;
+    padding: 2px 16px;
+    color: white;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+.column {
+    float: left;
+    width: 16.66%;
+}
+
+
+.demo {
+    opacity: 0.6;
+}
+
+.active,
+.demo:hover {
+    opacity: 1;
+}
+
+.contact {
+    align-items: center;
+    margin-top: 20px;
+}
+
+.contact h1 {
+    text-align: center;
+    color: rgb(8, 8, 96);
+    margin-top: 20px;
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+.desc {
+    display: flex;
+    padding: 20px;
+    font-size: 20px;
+    gap: 3px;
+    align-items: center;
+}
+
+.events{
+    text-align: center;
+    margin-top: 40px;
+}
+.container-card {
+    perspective: 1000px;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    padding: 30px;
+}
+
+
+.single-card {
+    height: 450px;
+    padding: 10px;
+    width: 300px;
+    position: relative;
+    text-align: center;
+    transition: 2s;
+    transform-style: preserve-3d;
+}
+
+.single-card:hover {
+    transform: rotateY(180deg);
+}
+
+.front,
+.back {
+    width: 300px;
+    position: relative;
+    top: 0;
+    left: 0;
+    backface-visibility: hidden;
+}
+
+.front {
+    cursor: pointer;
+    height: 100%;
+    background-image: url("./2.jpg");
+    backface-visibility: hidden;
+    border-radius: 50px;
+    background-size: cover;
+    background-position: center;
+}
+
+
+.back {
+    transform: rotateY(180deg);
+    position: absolute;
+    border-radius: 50px;
+    height: 450px;
+    background-color: green;
+}
+
+.content {
+    margin-top: 60px;
+}
